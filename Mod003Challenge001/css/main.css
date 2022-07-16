@@ -1,0 +1,47 @@
+/* 3. Utilizar las siguientes propiedades: 
+font-family, font-size, color, 
+background-color, width, height, padding, 
+margin y vertical-align con el valor middle
+para alinear las imágenes en referencia al 
+texto del título.  */
+/* 4. Trabajar con Google Fonts para implementar 
+las tipografías de la diapositiva 5.
+Para convertir pt a px, recomendamos utilizar:
+https://pixelsconverter.com/pt-to-px */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,900;1,400&display=swap'); 
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 37px;
+    font-weight: 900;
+    color: #04146c;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #04146c;
+    margin-left: 70px;
+    width: 40%;
+    margin-top: 0;
+}
+/* 5. Las imágenes deben tener un tamaño de 
+55px de width y un margin-right de 15px. 
+6. Los párrafos tendrán un width del 40% y se 
+quitarán su margin-top y bottom, pero se le 
+agrega un margin-left de 70px.  */
+img { 
+    width: 55px; 
+    margin-right: 15px;
+    vertical-align: middle;  
+}
